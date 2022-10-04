@@ -9,7 +9,7 @@ env:
   RUN_BY: yashraj
 jobs:
   demo:
-    runs-on: runner-deployment-gsb7k-gqwn9
+    runs-on: self-hosted
     steps:
       - run: echo "Hello World!!! Github Actions"
       - run: echo "Event name -> ${{ github.event_name }}"
